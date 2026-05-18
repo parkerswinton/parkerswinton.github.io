@@ -5,11 +5,12 @@ export const Route = createFileRoute('/')({ component: Home })
 
 function Home() {
   return (
-    <div className="p-8">
-      <Construction className="text-orange-600" />
-      <h1 className="bg-sky-700 px-4 py-2 text-4xl text-white hover:bg-sky-800 sm:px-8 sm:py-3">
-        Construction Zone
+    <div className="flex w-full items-center justify-center p-8">
+      <Construction className="text-orange-400" />
+      <h1 className="px-2 py-2 text-4xl">
+        Construction Zone (but with a dark mode)
       </h1>
+      <Construction className="text-orange-400" />
     </div>
   )
 }
